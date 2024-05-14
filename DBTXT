@@ -1,0 +1,13 @@
+DB
+
+
+create table coupons_203(
+    cupon_code varchar(20),
+    MinOrderValue decimal(10,2),
+    discount int,
+    couponCount int
+)
+
+insert into coupons_203 values('WELCOME20',1500.00,20,5),('SUMMER30',2500.00,30,3),('FALL10',1000,10,3),('BIGSALE30',10000,30,2)
+
+
